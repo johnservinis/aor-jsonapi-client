@@ -117,6 +117,7 @@ export default (apiUrl, httpClient = jsonApiHttpClient) => {
                 return {data: jsonData}
         case UPDATE:
         case CREATE:
+        case GET_ONE:
             return { data: Object.assign({id: json.data.id}, json.data.attributes) };
         case DELETE:
             return {data: json}
