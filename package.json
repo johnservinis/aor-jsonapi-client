@@ -8,8 +8,7 @@
     "babel2": "babel --presets es2015 src/fetch.js -o build/fetch.js",
     "babel3": "babel --presets es2015 src/types.js -o build/types.js",
     "babel4": "babel --presets es2015 src/HttpError.js -o build/HttpError.js",
-    "test": "echo \\\\\\\"Error: no test specified\\\\\\\" && exit 1",
-    "postinstall": "npm run babel1 && npm run babel2 && npm run babel3 && npm run babel4"
+    "test": "echo \\\\\\\"Error: no test specified\\\\\\\" && exit 1"
   },
   "repository": {
     "type": "git",
